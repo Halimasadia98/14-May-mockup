@@ -1,0 +1,263 @@
+ /* @media screen and (max-width: 1100px) { */
+ 
+ body {
+     padding: none;
+     margin: none;
+     background-repeat: no-repeat;
+     font-family: 'Montserrat', sans-serif;
+     height: 500px;
+     background-position: center;
+     background-size: cover;
+     position: relative;
+ }
+ 
+ i {
+     transition: color 1s, background-color 2s;
+ }
+ 
+ * {
+     box-sizing: border-box;
+ }
+ 
+ marquee {
+     background-color: #ed484c;
+     line-height: 40px;
+     color: white;
+     font-weight: bold;
+     display: flex;
+ }
+ 
+ #header {
+     display: flex;
+     color: #4c4c4c;
+     justify-content: space-between;
+     border: 2px solid;
+     background-color: #4c4c4c;
+ }
+ 
+ #header #logo {
+     height: 65px;
+     width: 86px;
+     padding: 10px;
+     margin-left: 1em;
+ }
+ 
+ ul {
+     font-size: 1em;
+     font-weight: bold;
+     list-style: none;
+     display: flex;
+     color: #bdbfbf;
+     cursor: pointer;
+ }
+ 
+ li {
+     margin: 0em 1em;
+ }
+ 
+ li:hover {
+     color: #efece7;
+ }
+ 
+ #join {
+     background-image: url(images/floral.png);
+     background-color: #f18d97;
+     text-align: center;
+     padding: 50px;
+     line-height: 20px;
+     margin-bottom: 0px;
+ }
+ 
+ #join p {
+     border-bottom: 1px solid black;
+     border-top: 1px solid black;
+     margin: 1em 0;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     line-height: 30px;
+     font-size: 20px;
+ }
+ 
+ h1 {
+     font-size: 5em;
+     font-family: 'Josefin Sans', sans-serif;
+     border-bottom: 1px solod black;
+ }
+ 
+ #join button {
+     background-color: #160d0f;
+     color: #e78690;
+     padding: 1em 5em;
+     border-radius: 4px;
+     border: none;
+     font-size: 1.5em;
+     font-weight: bold;
+ }
+ 
+ #join button:hover {
+     background-color: beige;
+     color: #e78690;
+ }
+ 
+ #service {
+     background-image: url(images/floral.png);
+     display: flex;
+     text-align: center;
+ }
+ 
+ #srvc {
+     background-color: #efece7;
+     padding: 8px;
+ }
+ 
+ #service figure:hover i {
+     color: #e78690;
+ }
+ 
+ h2 {
+     text-align: center;
+     font-family: 'Satisfy', cursive;
+     font-size: 2em;
+ }
+ 
+ #service i {
+     font-size: 8em;
+     text-align: center;
+ }
+ 
+ #flex-warp {
+     background-image: url(images/floral.png);
+ }
+ 
+ #portfolio {
+     background-image: url(images/floral.png);
+     margin: 37px 27px;
+     border-bottom: 1px solid black;
+     border-top: 1px solid black;
+     padding: 17px;
+     font-size: 18px;
+     display: inline-block;
+     line-height: 30pxpx;
+     word-spacing: 1px;
+     letter-spacing: 1px;
+     border-width: 2px;
+     margin-left: 20em;
+ }
+ 
+ #flex-container {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+ }
+ 
+ #flex-container img {
+     height: 200px;
+     width: 300px;
+     border-radius: 4px;
+     display: block;
+ }
+ 
+ #flex-container figcaption {
+     background-color: #160d0f;
+     flex-direction: row;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     overflow: hidden;
+     position: absolute;
+     top: 0;
+     right: 0;
+     bottom: 0;
+     left: 0;
+     height: 200px;
+     width: 300px;
+     opacity: 0.8;
+     display: none;
+ }
+ 
+ figcaption h3 {
+     margin: 30px 15px;
+     font-family: serif !important;
+     font-size: 16px !important;
+     color: white;
+ }
+ 
+ #flex-container figcaption i {
+     border-radius: 100%;
+     display: block;
+     border-color: red;
+     font-size: 2em;
+     color: white;
+     padding: 5px;
+ }
+ 
+ .icon button:hover {
+     background-color: white;
+ }
+ 
+ .icon button {
+     border: 1px solid;
+     border-radius: 100%;
+     padding: 10px;
+     /* max-resolution: 5px; */
+ }
+ 
+ .icon button:hover {
+     background-color: black;
+     color: white;
+ }
+ 
+ #flex-container figure {
+     position: relative;
+ }
+ 
+ #flex-container figure:hover figcaption {
+     display: inline-block;
+     cursor: pointer;
+ }
+ 
+ #images1 {
+     display: flex;
+     flex-direction: row;
+     margin-left: 6em;
+ }
+ 
+ #images2 {
+     display: flex;
+     flex-direction: row;
+     margin-left: 6em;
+ }
+ 
+ #contact {
+     background-image: url(images/floral.png);
+     text-align: center;
+     background-color: #afc7c6;
+     padding: 25px;
+ }
+ 
+ #contact i {
+     font-size: 3em !important;
+     border-radius: 50px !important;
+     border: 1px solid #222 !important;
+     padding: 24px 20px !important;
+     margin: 0 10px !important;
+ }
+ 
+ #contact i:hover {
+     background-color: #222 !important;
+     color: #FCDEA6 !important;
+     cursor: pointer !important;
+ }
+ 
+ footer {
+     background-color: #212121 !important;
+     text-align: center !important;
+     font-size: 18px !important;
+     color: #FCDEA6 !important;
+     padding: 7px !important;
+     letter-spacing: 1px !important;
+     font-style: oblique !important;
+ }
+ 
+ footer:hover i {
+     color: red;
+ }
